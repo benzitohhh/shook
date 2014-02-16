@@ -1,0 +1,1 @@
+[18-Aug-2008 13:12:30] PHP Fatal error:  Call to undefined function  get_header() in /home1/shookfm/public_html/content/wp-content/themes/default/index.php on line 1

@@ -1,0 +1,487 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+  	background: transparent url(images/wood1.gif) repeat top left;
+	font: 62.5% Verdana, Arial, sans-serif;
+	line-height:1.25em;
+	color: #3e434c;
+}
+#outercontainer{
+	width: 100%;
+    background: url(images/top_fade.png) repeat-x left top;
+    height: 268px; /* doesn't work in IE vista (footer appears at 268) */
+    /* height: auto; doesn't work in firefox - outercontainer is assigned height 0*/
+}
+
+a {
+	text-decoration: none;
+	color: #3e434c;
+	font-weight:bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {border: 0;}
+
+h1, h2, h3 {
+	font-size: 100%;
+	font-weight: bold;
+}
+
+hr {display: none;}
+
+li {
+	list-style: none;
+}
+
+#container{
+    background: transparent;
+	clear: both;
+	/* width: 1034px; */
+	text-align: left;
+	margin-left: 50px;
+}
+
+span .hide {
+	  display: inline;
+	  width: 0;
+	  height: 0;
+	  overflow: hidden;
+}
+#header {
+	float: left;
+	width: 1032px;
+	height: 90px;
+	margin-top: 20px;
+}
+#headerpic {
+	float: left;
+	width: 304px;
+	height: 76px;
+	background: transparent url(images/headerlogoBlue.png) no-repeat left; /* TODO: use gif */
+}
+#topright {
+	float: left;
+	width: 728px;
+	height: 90px;
+	/* background: transparent url("images/placeholder_728x90.png") no-repeat; */
+	background: none;
+}
+
+
+#content {
+	float: left;
+	overflow: hidden;
+	text-align: left;
+	width: 1014px;
+	margin-top: 25px;
+	padding: 10px;
+	background: #ffffff;
+	-moz-border-radius: 10px 10px 0 0;
+}
+
+/* ========== main columns ============= */
+#leftcontent {
+  float:left;
+  width: 152px;
+  padding-right: 40px;
+}
+#maincontent{
+  border-left:0px solid #989898;
+  float:left;
+  width: 560px;/*560*/
+}
+#rightcontent{
+  border-left:0px solid #989898;
+  float: right;
+  width: 250px;
+  padding-bottom: 5px;
+}
+#footer{
+  clear:both;
+  margin:0;
+  background: url(images/white_opacity_40pc.png) repeat;
+  width:100%; 
+  text-align:center;
+  padding: 10px 0 10px 0;
+}
+
+/* ================ general container (with line bottom) ========*/
+.wgreylinebottom {
+	float: left;
+	display: block;
+	border-bottom:0px solid #989898;
+	width: 100%;
+	/*
+	margin:0 0 12px;
+	padding:0 10px;
+	*/
+}
+#maincontent .wgreylinebottom {
+	/* width: 100%; */
+}
+
+
+
+/* ================= item boxes, item lists =====================*/
+.sectiontitle, .post-categories a {
+	color:#989898;
+	font-size:1.2em;
+	font-weight:normal;
+	line-height:1.3em;
+	margin:0 0 25px;
+	text-transform: uppercase;
+}
+.sectiontitle a {
+	color:#989898;
+	font-weight:normal;
+	text-transform: none;
+}
+.sectiontitle .navigation a {
+	font-size: 0.7em;
+}
+#maincontent #searchform {
+	float: left;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.itembox, .itemlist {
+	font-size: 1.3em;
+	line-height:1.25em;
+	overflow: hidden;
+}
+.pagecontainer {
+	font-size: 1.3em;
+	line-height:1.35em;
+	/*
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	*/
+	overflow: hidden;
+}
+.itembox {
+	float: left;
+	padding-bottom: 25px;
+	margin:0 12px;
+}
+.itembox p{
+	float: left;
+}
+.itembox * .meta{
+	font-size: 0.8em;
+	float: left;
+}
+
+.topitembox {
+	width: 540px;
+	height: 200px;
+}
+.topitembox .itemboxtitle, .posttitle { 
+	font-size: 1.38em;
+	line-height:1.3em;
+}
+.topitembox p { 
+	float: none;
+}
+
+.normalitembox {
+	width: 	248px;
+	height: 105px;
+	overflow: hidden;
+}
+
+.normalshortitembox {
+	width: 	290px;
+	height: 44px;
+}
+
+.normalitembox h3, .normalshortitembox h3 {
+	padding: 0px;
+}
+
+.normalshortitembox h3 a {
+	font-weight: normal;
+}
+
+.specialitembox {
+	width: 	150px;
+	overflow: hidden;
+}
+
+.specialitembox p, .specialitembox h3.itemboxtitle {
+	display: block;
+}
+.#tags {
+	float:left;
+	margin:0 0 12px;
+	padding:0 10px;
+}
+.itemblock .itembox {
+	margin: 0 12px
+}
+
+.headlinelistnarrow {
+	float: left;
+	width: 	160px;	
+}
+.headlinelistmedium {
+	float: left;
+	width: 	160px;	/* TODO: should be 200px */
+}
+.headlinelistwide {
+	float: left;
+	width: 	300px;	
+}
+.headlinelistflexible {
+	float: left;
+}
+.headlinelistflexible a img {
+	float: left;
+	margin-right: 5px;
+}
+
+.headlinelisttitle {
+	color:#989898;
+	font-size:1.2em;
+	font-weight:normal;
+	line-height:1.3em;
+	margin-bottom:12px;	
+}
+.topitembox .headlinelist {
+	padding: 15px;
+}
+.topitembox .headlinelisttitle {
+	font-size:1em;
+	line-height:1em;
+}
+.headlineitem {
+	background:transparent url(images/arrow.gif) no-repeat scroll 0 5px;
+	line-height:1.3em;
+	padding: 0 12px;
+	margin: 0 0 12px 12px;
+	/* margin-left: 12px; */
+}
+.headlineitem a {
+	font-size:1.2em;
+	font-weight: normal;
+	line-height:1.3em;
+}
+.topitembox .headlineitem a  {
+	font-size:1em;
+	line-height:1em;
+}
+
+p.postdate {
+	color: #989898;
+}
+
+.itembox img {
+	float: left;
+	padding-right: 10px;
+}
+.specialitembox img {
+	float: none;
+	display: block;
+}
+
+.rightcontentitem{
+	margin-bottom: 40px;
+}
+
+.clear {clear:both;}
+
+/* 
+  ======== navibar =============================
+*/
+#navibar {
+	float: left;
+	width: 1032px;
+	height: 43px;
+	background: transparent url(images/navibar/biggerNavibar.png) no-repeat center;
+}
+#navibarlabels a {
+	float: left;
+	left: 10px;
+	height: 43px;
+	margin: 0 13px;
+}
+#navibarlabels #logo {
+	width: 83px;
+	background: url(images/navibar/shooklogofornavibar.gif) no-repeat;
+}
+#navibarlabels #home {
+	width: 54px;
+	background: url(images/navibar/navibarHomeLabel_43.png) no-repeat;
+}
+#navibarlabels #about {
+	width: 50px;
+	background: url(images/navibar/navibarAboutLabel_43.png) no-repeat;
+}
+#navibarlabels #news {
+	width: 48px;
+	background: url(images/navibar/navibarNewsLabel_43.png) no-repeat;
+}
+#navibarlabels #features {
+	width: 71px;
+	background: url(images/navibar/navibarFeaturesLabel_43.png) no-repeat;
+}
+#navibarlabels #listen {
+	width: 56px;
+	background: url(images/navibar/navibarListenLabel_43.png) no-repeat;
+}
+#navibarlabels #reviews {
+	width: 67px;
+	background: url(images/navibar/navibarReviewsLabel_43.png) no-repeat;
+}
+#navibarlabels #shop {
+	width: 45px;
+	background: url(images/navibar/navibarShopLabel_43.png) no-repeat;
+}
+#navibarlabels #events {
+	width: 41px;
+	background: url(images/navibar/navibarDestinationOutLabel_43.png) no-repeat;
+}
+#navibarlabels #stockists {
+	width: 75px;
+	background: url(images/navibar/navibarStockistsLabel_43.png) no-repeat;
+}
+#searchform {
+	float: right;
+	position: relative;
+	top: 11px;
+	left: -30px;
+}
+
+
+
+/*
+	======= comments ======================
+*/
+
+.comments {
+
+}
+h3#comments {
+	margin-bottom: 0em;
+}
+h3#respond {
+	margin-top: 1em;
+}
+.comment {
+	width: 250px;
+}
+/*top speech bubbles*/
+.comment .top {
+	background: transparent url(images/speechbubbletop_black.png) no-repeat scroll left bottom;
+	height: 9px;
+}
+.comment .top2 {
+	background: transparent url(images/speechbubbletop_blue_reverse.png) no-repeat scroll left bottom;
+	height: 9px;
+}
+/*bottom speech bubble*/
+.comment .bottom { 
+	background: transparent url(images/speechbubblebottom_black.png) no-repeat scroll left bottom;
+	height: 29px;
+}
+.comment .bottom2 {
+	background: transparent url(images/speechbubblebottom_blue_reverse.png) no-repeat scroll left bottom;
+	height: 29px;
+}
+/* content of bubbles*/
+.comment .content {
+	background: #000000;
+	color:#ffffff;
+	margin:0;
+	padding:0 10px;
+}
+.comment .content2 {
+	background: #00CCFF;
+	color:#ffffff;
+	margin:0;
+	padding:0 10px;
+}
+.comment .content em{
+	color:#aaaaaa;
+	font-size: 0.9em;
+	font-style: italic;
+}
+.comment .content .meta{
+	color:#aaaaaa;
+}
+.comment .content .meta a {
+	color: #00ccff;
+}
+.comment .content2 .meta{
+	color:#3E434C;
+}
+.comment .content2 .meta a {
+	color: #3E434C;
+}
+.comments .comment .content .meta{
+	font-size: 0.8em;
+}
+
+
+/*
+	===== indiviual post / page=======================
+*/
+.post {
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+}
+.post .metadata {
+	margin-bottom: 25px;
+}
+.post .entry {
+}
+.post #tags {
+	border: 1px solid #ffffff;
+	margin-bottom: 25px;	
+	padding: 1em;
+}
+.post .entry p {
+	padding-bottom: 1.5em;
+	/* width: 430px; */
+	overflow: hidden;
+}
+.post .entry p img {
+	float: none;
+	/* -bottom:  25px; */
+}
+#pagecontainer .post .entry p img { /* hack for "store" TODO: fix*/
+	float: none;
+}
+
+/* paging navigation */
+.pagination {
+display: block;
+/* text-align: center; */
+margin-top: 10px;
+margin-bottom: 60px;
+font-size:80%;
+}
+.pagination a{
+text-align:center;
+padding:5px 10px;
+margin:0 2px 0 2px;
+border:1px solid #6C7388;
+}
+.pagination a:hover{
+background:#6C7388;
+}
+.pagination a.current {
+background:#6C7388;
+}
+
+
+
+
+
+

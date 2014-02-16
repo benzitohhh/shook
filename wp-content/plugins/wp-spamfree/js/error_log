@@ -1,0 +1,4 @@
+[28-Sep-2012 19:16:46] PHP Parse error:  syntax error, unexpected T_STRING in /home1/shookfm/public_html/content/wp-content/plugins/page-flip-image-gallery/pageFlip.class.php(2) : eval()'d code(1) : eval()'d code on line 1
+[28-Sep-2012 19:16:46] PHP Fatal error:  Class 'pageFlip_plugin_base' not found in /home1/shookfm/public_html/content/wp-content/plugins/page-flip-image-gallery/pageFlip.php on line 8
+[28-Sep-2012 19:16:49] PHP Parse error:  syntax error, unexpected T_STRING in /home1/shookfm/public_html/content/wp-content/plugins/page-flip-image-gallery/pageFlip.class.php(2) : eval()'d code(1) : eval()'d code on line 1
+[28-Sep-2012 19:16:49] PHP Fatal error:  Class 'pageFlip_plugin_base' not found in /home1/shookfm/public_html/content/wp-content/plugins/page-flip-image-gallery/pageFlip.php on line 8

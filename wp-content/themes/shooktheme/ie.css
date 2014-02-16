@@ -1,0 +1,59 @@
+#outercontainer{
+	background: none;
+}
+#headerpic {
+	background: transparent url(images/headerlogoBlueGreyMatte.gif) no-repeat left;
+}
+#maincontent{
+  overflow: hidden;
+}
+
+/* 
+  ======== navibar =============================
+*/
+#navibar {
+	width: 1032px;
+	height: 43px;
+	background: transparent url(images/navibar/navibar_1032x43.png) no-repeat center;
+}
+/* TODO: use gifs for IE compatibility */
+#navibarlabels #logo {
+	width: 83px;
+	background: url(images/navibar/shooklogofornavibar.gif) no-repeat;
+}
+#navibarlabels #home {
+	width: 54px;
+	background: url(images/navibar/navibarHomeLabel_43.gif) no-repeat;
+}
+#navibarlabels #about {
+	width: 50px;
+	background: url(images/navibar/navibarAboutLabel_43.gif) no-repeat;
+}
+#navibarlabels #news {
+	width: 48px;
+	background: url(images/navibar/navibarNewsLabel_43.gif) no-repeat;
+}
+#navibarlabels #features {
+	width: 71px;
+	background: url(images/navibar/navibarFeaturesLabel_43.gif) no-repeat;
+}
+#navibarlabels #listen {
+	width: 56px;
+	background: url(images/navibar/navibarListenLabel_43.gif) no-repeat;
+}
+#navibarlabels #reviews {
+	width: 67px;
+	background: url(images/navibar/navibarReviewsLabel_43.gif) no-repeat;
+}
+#navibarlabels #shop {
+	width: 45px;
+	background: url(images/navibar/navibarShopLabel_43.gif) no-repeat;
+}
+#navibarlabels #events {
+	width: 41px;
+	background: url(images/navibar/navibarDestinationOutLabel_43.gif) no-repeat;
+}
+#navibarlabels #stockists {
+	width: 75px;
+	background: url(images/navibar/navibarStockistsLabel_43.gif) no-repeat;
+}
