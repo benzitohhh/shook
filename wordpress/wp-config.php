@@ -3,9 +3,9 @@
 @ini_set( 'upload_max_size' , '250M' );
 
 // ** MySQL settings ** //
-define('DB_NAME', 'shookfm_wp01');    // The name of the database
-//define('DB_USER', 'shookfm_wp01');     // Your MySQL username
-//define('DB_PASSWORD', 'zgRpfrZuc6'); // ...and password
+define('DB_NAME', 'shookf1_shookfm_wp01');    // The name of the database
+//define('DB_USER', 'shookf1_db');     // Your MySQL username
+//define('DB_PASSWORD', '_uU04gwgcsGK'); // ...and password
 //define('DB_HOST', 'localhost');    // 99% chance you won't need to change this value
 define('DB_USER', 'root');     // Your MySQL username
 define('DB_PASSWORD', 'root'); // ...and password

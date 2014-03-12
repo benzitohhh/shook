@@ -22,7 +22,30 @@ set global max_allowed_packet=1000000000;
 # sed "s/http:\/\/localhost\/shook\/wordpress/http:\/\/www.shook.fm/g" dump-local-ben-20140311.sql > temp.sql
 
 # To convert localdump to a bluehost temp dump
-# sed "s/http:\/\/localhost\/shook\/wordpress/http:\/\/box367.bluehost.com\/~shookf1/g" dump-local-ben-20140311.sql > temp.sql
+# sed "s/http:\/\/localhost\/shook\/wordpress/http:\/\/box367.bluehost.com\/\\~shookf1/g" dump-local-ben-20140311.sql > temp.sql
 
 
+
+
+
+
+TODO:
+
+move all passwords somewhere safe!
+
+
+PROD
+
+MYSQL
+dbname = shookf1_shookfm_wp01
+user = shookf1_db
+pass = _uU04gwgcsGK
+
+
+
+
+
+mysql -ushookf1_db -p_uU04gwgcsGK shookf1_shookfm_wp01 < temp.sql
+
+unalias cp   # to disable overwrite checks
 
