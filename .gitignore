@@ -1,5 +1,5 @@
-wordpress/wp-content/uploads/*
+wp-content/uploads/*
 audio
 flam
-wordpress/wp-includes/error_log
+wp-includes/error_log
 uploads-20140625.tar.gz
