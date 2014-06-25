@@ -4,12 +4,12 @@
 
 // ** MySQL settings ** //
 define('DB_NAME', 'shookf1_shookfm_wp01');    // The name of the database
-//define('DB_USER', 'shookf1_db');     // Your MySQL username
-//define('DB_PASSWORD', '_uU04gwgcsGK'); // ...and password
-//define('DB_HOST', 'localhost');    // 99% chance you won't need to change this value
-define('DB_USER', 'root');     // Your MySQL username
-define('DB_PASSWORD', 'root'); // ...and password
-define('DB_HOST', '127.0.0.1');    // 99% chance you won't need to change this value
+define('DB_USER', 'shookf1_db');     // Your MySQL username
+define('DB_PASSWORD', '_uU04gwgcsGK'); // ...and password
+define('DB_HOST', 'localhost');    // 99% chance you won't need to change this value
+//define('DB_USER', 'root');     // Your MySQL username
+//define('DB_PASSWORD', 'root'); // ...and password
+//define('DB_HOST', '127.0.0.1');    // 99% chance you won't need to change this value
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 

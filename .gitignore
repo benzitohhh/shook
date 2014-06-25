@@ -1,3 +1,4 @@
 wordpress/wp-content/uploads/*
 audio
 flam
+wordpress/wp-includes/error_log
