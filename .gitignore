@@ -1,5 +1,8 @@
+.htaccess
+config.php
 wp-content/uploads/*
 audio
 flam
 wp-includes/error_log
 uploads-20140625.tar.gz
+
