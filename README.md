@@ -29,6 +29,10 @@ cp wp-config.prod.php wp-config.php
 cp .htaccess.prod .htaccess
 ```
 
+6) Uploads (content)
+Un pack the tar.gz archive, and copy `wp-content/uploads` (approx 2.5 gigabytes) to `~/public_html/wp-content/uploads`
+
+
 ## To dump db
 mysqldump -ushookf1_db -p_uU04gwgcsGK shookf1_shookfm_wp01 > dump.sql
 
@@ -63,6 +67,9 @@ cp wp-config.ben-local.php wp-config.php
 ```
 cp .htaccess.ben-local .htaccess
 ```
+
+6) Uploads (content)
+Un pack the tar.gz archive, and copy `wp-content/uploads` (approx 2.5 gigabytes) to `<codebase>/wp-content/uploads`
 
 
 
